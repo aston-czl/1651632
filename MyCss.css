@@ -1,0 +1,36 @@
+﻿body {
+    /*background-image:url(http://localhost:1636/1651632/images/menu_pattern_1.png)*/
+}
+
+.photo {
+    width:117px;
+    margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.header {
+    height:100px;
+}
+
+.title {
+    line-height:39px;
+    vertical-align:bottom;
+    font-style:oblique;
+    font-family:STSong;
+    font-size:50px;
+}
+
+.login{
+    padding-top:50px;
+}
+
+.page1 {
+    background-color: rgba(255, 255, 255, 0.80);
+    border-radius: 8px;
+    padding: 25px;
+    min-height:760px;
+    width:100%;
+    margin-left:20px;
+    margin-top:20px;
+}
