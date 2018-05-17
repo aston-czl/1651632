@@ -1,36 +1,55 @@
 ﻿body {
-    /*background-image:url(http://localhost:1636/1651632/images/menu_pattern_1.png)*/
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    margin: 0;
 }
 
 .photo {
-    width:117px;
-    margin-top:20px;
-    margin-left:auto;
-    margin-right:auto;
+    width: 117px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.header {
-    height:100px;
-}
-
-.title {
-    line-height:39px;
-    vertical-align:bottom;
-    font-style:oblique;
-    font-family:STSong;
-    font-size:50px;
-}
-
-.login{
-    padding-top:50px;
-}
-
-.page1 {
-    background-color: rgba(255, 255, 255, 0.80);
+.main {
+    background-color: rgba(255, 255, 255, 0.60);
     border-radius: 8px;
-    padding: 25px;
-    min-height:760px;
-    width:100%;
-    margin-left:20px;
-    margin-top:20px;
+    padding-top: 25px;
+    padding-left: 20px;
+    min-height: 768px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#side {
+    width: inherit;
+}
+
+#head {
+    height: 100px;
+}
+
+#title {
+    line-height: 50px;
+    padding-top:40px;
+    font-style: oblique;
+    font-family: STSong;
+    font-size: 50px;
+    color: black;
+    text-shadow: 0px 1px 0px #c0c0c0, 0px 2px 0px #b0b0b0, 0px 3px 0px #a0a0a0, 0px 4px 0px #909090, 0px 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+#login {
+    padding-top:25px;
+}
+
+#external-frame {
+    width: 100%;
+}
+
+#footer {
+    text-align: center;
+    left: -15px;
+    margin-top: 20px;
+    margin-left: 16.66666667%;
+    padding: 0;
 }

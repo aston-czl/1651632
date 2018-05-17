@@ -5,7 +5,7 @@
 }
 
 html { 
-  background: url("/images/menu_pattern_1.png") no-repeat center center fixed; 
+  background: url(http://imd.edumedia.ca/mars0277/code/grey.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -16,7 +16,7 @@ html {
   width:250px;
   height:100%;
   position:fixed;
-  background:url("/images/menu_pattern_1.png");
+  background:url("http://themes.mediacreed.com/html/synergy/assets/patterns/menu/menu_pattern_1.png");
   border-right:10px solid #d00355;
   
   ul{
@@ -68,7 +68,7 @@ html {
     top:-30px;
     padding:0px;
     width:220px;
-   display:none; background:url("/images/menu_pattern_1.png");
+   display:none; background:url("http://themes.mediacreed.com/html/synergy/assets/patterns/menu/menu_pattern_1.png");
     
     li{
       a{

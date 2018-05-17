@@ -9,14 +9,17 @@
     <link href="bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="css3-animation-bg-menu/css/style.css" rel="stylesheet" />
     <title>Schnappi~</title>
+    <script src="jquery-3.0.0/jquery-3.0.0.min.js"></script>
+    <script src="bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
 </head>
 <body>
     <form id="form1" runat="server">
-        <div class="container">
+        <div class="container-fluid">
 
             <!--sidebar 侧边栏导航-->
             <div class="col-md-2 hidden-sm hidden-xs">
-                <div class="sidebar">
+                <div class="sidebar" id="side">
                     <p class="photo">
                         <img src="images/logo.png" />
                     </p>
@@ -63,16 +66,17 @@
 
 
             <!--header 头部-->
-            <div class="header col-md-10">
+            <div class="col-md-10" id="head">
                 <div class="row">
                     <div class="col-md-10">
-                        <h1 class="title">WEB技术与基础</h1>
+                        <div id="title">WEB技术基础与应用</div>
                     </div>
 
-                    <div class="col-md-2  hidden-sm  hidden-xs login">
-
-                        <asp:Button ID="btn1" runat="server" Text="登陆" class="btn" />
-                        <asp:Button ID="btn2" runat="server" Text="注册" class="btn" />
+                    <div class="col-md-2  hidden-sm  hidden-xs" id="login">
+                        <p>
+                            <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label></p>
+                        <asp:LinkButton ID="btn1" type="button" runat="server" Text="登陆" class="btn"/>
+                        <asp:LinkButton ID="btn2" runat="server" Text="注册" class="btn"/>
 
                     </div>
 
@@ -81,21 +85,21 @@
             </div>
 
             <!--content 主体-->
-            <div class="col-md-10 col-md-offset-2">
+            <div class="col-md-10 col-md-offset-2 main">
                 <p>
-                    <iframe name="if_1" src="images/wallhaven-22872.jpg" class="page1"></iframe>
+                    <iframe name="if_1" src="Welcome.aspx" id="external-frame" scrolling="no" onload="setIframeHeight(this)"></iframe>
                 </p>
             </div>
+
+
             <!--footer 底部-->
-            <div class="text-center col-md-10 col-md-offset-2">
-                <span>2018 Copyright @ Cao ZhiLin</span>
+            <div class="col-md-10 col-md-offset-2" id="footer">
+                <p>2018 Copyright @ ZhiLin Cao</p>
+                <p>github:<a href="https://github.com/aston-czl/1651632" target="_blank">https://github.com/aston-czl/1651632</a></p>
             </div>
         </div>
     </form>
 </body>
-
-<script src="bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-<script src="jquery-3.0.0/jquery-3.0.0.min.js"></script>
-<script src="my.js"></script>
 <script src="css3-animation-bg-menu/js/index.js"></script>
+<script src="my.js"></script>
 </html>
