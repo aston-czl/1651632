@@ -18,7 +18,7 @@
         <div class="container-fluid">
 
             <!--sidebar 侧边栏导航-->
-            <div class="col-md-2 hidden-sm hidden-xs">
+            <div class="col-md-1 hidden-sm hidden-xs">
                 <div class="sidebar" id="side">
                     <p class="photo">
                         <img src="images/logo.png" />
@@ -66,13 +66,13 @@
 
 
             <!--header 头部-->
-            <div class="col-md-10" id="head">
+            <div class="col-md-8 col-md-offset-1" id="head">
                 <div class="row">
-                    <div class="col-md-10">
+                    <div class="col-md-9">
                         <div id="title">WEB技术基础与应用</div>
                     </div>
 
-                    <div class="col-md-2  hidden-sm  hidden-xs" id="login">
+                    <div class="col-md-3  hidden-sm  hidden-xs" id="login">
                         <p>
                             <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label></p>
                         <asp:LinkButton ID="btn1" type="button" runat="server" Text="登陆" class="btn"/>
@@ -85,7 +85,7 @@
             </div>
 
             <!--content 主体-->
-            <div class="col-md-10 col-md-offset-2 main">
+            <div class="col-md-8 col-md-offset-2 main">
                 <p>
                     <iframe name="if_1" src="Welcome.aspx" id="external-frame" scrolling="no" onload="setIframeHeight(this)"></iframe>
                 </p>
@@ -93,7 +93,7 @@
 
 
             <!--footer 底部-->
-            <div class="col-md-10 col-md-offset-2" id="footer">
+            <div class="col-md-8 col-md-offset-2" id="footer">
                 <p>2018 Copyright @ ZhiLin Cao</p>
                 <p>github:<a href="https://github.com/aston-czl/1651632" target="_blank">https://github.com/aston-czl/1651632</a></p>
             </div>
