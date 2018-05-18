@@ -11,11 +11,13 @@ Partial Class 实验4_lx4_3
     End Sub
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        If RequiredFieldValidator3.IsValid And RequiredFieldValidator1.IsValid And RangeValidator1.IsValid And RequiredFieldValidator2.IsValid Then
+        If RequiredFieldValidator3.IsValid And RequiredFieldValidator1.IsValid And RangeValidator1.IsValid And RequiredFieldValidator2.IsValid And TextBox3.Text = Label2.Text Then
             MultiView1.ActiveViewIndex = 1
         Else
             Label1.Text = "输入信息有误"
         End If
+        Label2.Text = ""
+        l.ky(Label2)
     End Sub
 
     Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click

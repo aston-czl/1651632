@@ -14,7 +14,7 @@
         用户名：<asp:TextBox ID="tbx_1" runat="server"></asp:TextBox>
         <br />
         密码：&nbsp; 
-        <asp:TextBox ID="tbx_2" runat="server"></asp:TextBox>
+        <asp:TextBox ID="tbx_2" runat="server" TextMode="Password"></asp:TextBox>
         <br />
         <asp:Button ID="btn_1" runat="server" Text="提交" />
         <asp:Button ID="btn_2" runat="server" Text="重置" />

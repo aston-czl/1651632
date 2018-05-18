@@ -15,7 +15,7 @@
         用户名：<asp:TextBox ID="p_username" runat="server"></asp:TextBox>
         <br />
         密码：&nbsp; 
-        <asp:TextBox ID="p_password" runat="server"></asp:TextBox>
+        <asp:TextBox ID="p_password" runat="server" TextMode="Password"></asp:TextBox>
         <br />
         验证码：<asp:TextBox ID="p_yzm" runat="server"></asp:TextBox>
         <asp:Label ID="yzm" runat="server"></asp:Label>

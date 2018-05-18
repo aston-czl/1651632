@@ -2,8 +2,10 @@
 Partial Class 实验3_lx1_1
     Inherits System.Web.UI.Page
     Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
-        Dim l1 As New CZL.sy1
-        l1.table(lbl)
+        If IsPostBack = False Then
+            Dim l1 As New CZL.sy1
+            l1.table(lbl)
+        End If
     End Sub
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
