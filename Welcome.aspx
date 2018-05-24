@@ -11,7 +11,7 @@
     <form id="form1" runat="server">
     <div>
         <hr />
-    <h1 style="text-align:center">WELCOME!<h1>
+    <h1 style="text-align:center; line-height:100% ; vertical-align:central;">WELCOME!<h1>
         <hr />
     </div>
     </form>

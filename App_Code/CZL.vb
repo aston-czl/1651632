@@ -72,13 +72,15 @@ Public Class CZL
         End Sub
     End Class
     Public Class sy3
-        Private str As String = "0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM"
-        Public Sub ky(lbl As Label)
+        Private raw As String = "0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM"
+        Public Function ky() As String
+            Dim str As String = ""
             For i = 0 To 3
                 Randomize()
-                lbl.Text &= str(Int(Rnd() * 62))
+                str &= raw(Int(Rnd() * 62))
             Next
-        End Sub
+            Return str
+        End Function
         Public Sub judge(p_username As TextBox, p_password As TextBox, p_yzm As TextBox, yzm As Label, lbl As Label)
             If p_username.Text = "WEB" And p_password.Text = "2016" And p_yzm.Text = yzm.Text Then
                 lbl.Text = "登陆成功"

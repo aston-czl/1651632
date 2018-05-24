@@ -1,15 +1,18 @@
 ﻿Partial Class 实验3_lx3_3
     Inherits System.Web.UI.Page
     Dim l3 As New CZL.sy3
+    Dim str As String
     Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
         If Not Page.IsPostBack Then
             '表示首次加载页面时进行的操作
-            l3.ky(yzm)
+            str = l3.ky()
+            yzm.Text = str
         End If
     End Sub
     Protected Sub btn_1_Click(sender As Object, e As EventArgs) Handles btn_1.Click
         yzm.Text = ""
-        l3.ky(yzm)
+        str = l3.ky()
+        yzm.Text = str
     End Sub
 
     Protected Sub btn_2_Click(sender As Object, e As EventArgs) Handles btn_2.Click

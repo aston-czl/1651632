@@ -2,11 +2,12 @@
 Partial Class 实验4_lx4_2
     Inherits System.Web.UI.Page
     Dim l As New CZL.sy3
-
+    Dim str As String
     Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
         If Not Page.IsPostBack Then
             '表示首次加载页面时进行的操作
-            l.ky(Label2)
+            str = l.ky()
+            Label2.Text = str
         End If
     End Sub
 
@@ -17,7 +18,8 @@ Partial Class 实验4_lx4_2
             Label1.Text = "输入信息有误"
         End If
         Label2.Text = ""
-        l.ky(Label2)
+        str = l.ky()
+        Label2.Text = str
     End Sub
 
     Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click

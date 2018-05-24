@@ -8,6 +8,7 @@
     <link href="MyCss.css" rel="stylesheet" />
     <link href="bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="css3-animation-bg-menu/css/style.css" rel="stylesheet" />
+    <link href="Button.css" rel="stylesheet" />
     <title>Schnappi~</title>
     <script src="jquery-3.0.0/jquery-3.0.0.min.js"></script>
     <script src="bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
@@ -58,10 +59,9 @@
                                 <li><a href="实验4/lx4-3.aspx" target="if_1">lx4-3<i class="fa fa-angle-right"></i></a><span class="hover"></span></li>
                             </ul>
                         </li>
-                        <li><a href="#"><i class="fa fa-plane push"></i>Contact<i class="fa fa-angle-right"></i></a><span class="hover"></span></li>
+                        <li><a href="Chatroom/chat_login.aspx" target="if_1"><i class="fa fa-plane push"></i>聊天室<i class="fa fa-angle-right"></i></a><span class="hover"></span></li>
                     </ul>
                 </div>
-
             </div>
 
 
@@ -74,9 +74,13 @@
 
                     <div class="col-md-3  hidden-sm  hidden-xs" id="login">
                         <p>
-                            <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label></p>
-                        <asp:LinkButton ID="btn1" type="button" runat="server" Text="登陆" class="btn"/>
-                        <asp:LinkButton ID="btn2" runat="server" Text="注册" class="btn"/>
+                            <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+                        </p>
+                        <p>
+                            <asp:Label ID="Label2" runat="server"></asp:Label>
+                        </p>
+                        <asp:LinkButton ID="btn1" runat="server" Text="登陆" class="button button-highlight button-rounded button-small" href="SignIn.aspx" />
+                        <asp:Button ID="btn2" runat="server" Text="注册" class="button button-highlight button-rounded button-small" />
 
                     </div>
 

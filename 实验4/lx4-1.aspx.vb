@@ -14,11 +14,20 @@ Partial Class 实验4_lx4_1
     Dim str As String
     Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
         str = ddl_3.Text
-        Ds()
+        If Not IsPostBack Then
+            Ys()
+            Ds()
+        End If
     End Sub
 
     Protected Sub btn_2_Click(sender As Object, e As EventArgs) Handles btn_2.Click
         lbl_1.Text = "您选择的日期是：" + ddl_1.Text + "年" + ddl_2.Text + "月" + str + "日"
+    End Sub
+
+    Public Sub Ys()
+        For i = 1990 To 2018
+            ddl_1.Items.Add(i)
+        Next
     End Sub
 
     Public Sub Ds()

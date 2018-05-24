@@ -13,9 +13,6 @@
             选择年月：</p>
         <p>
             <asp:DropDownList ID="ddl_1" runat="server" AutoPostBack="True">
-                <asp:ListItem>2016</asp:ListItem>
-                <asp:ListItem>2017</asp:ListItem>
-                <asp:ListItem>2018</asp:ListItem>
             </asp:DropDownList>
             年<asp:DropDownList ID="ddl_2" runat="server" AutoPostBack="True">
                 <asp:ListItem>1</asp:ListItem>

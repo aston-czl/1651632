@@ -42,12 +42,13 @@ body {
 }
 
 #login {
-    padding-top:25px;
+    padding-top:10px;
     min-width: 170.667px;
-    text-align: right;
+    text-align: center;
 }
 
 #external-frame {
+    min-height:600px;
     width: 100%;
 }
 
