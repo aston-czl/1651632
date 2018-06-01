@@ -5,6 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="../Button.css" rel="stylesheet" />
     <title></title>
 </head>
 <body>
@@ -33,7 +34,7 @@
                 <br />
                 <asp:Label ID="Label1" runat="server"></asp:Label>
                 <br />
-                <asp:Button ID="Button1" runat="server" Text="下一步" CommandName="ViewByIndex" />
+                <asp:Button ID="Button1" runat="server" Text="下一步" CommandName="ViewByIndex" class="button button-primary button-pill button-small"/>
             </asp:View>
             <asp:View ID="View2" runat="server">
                 <table class="auto-style1">
@@ -89,7 +90,7 @@
             </asp:View>
         </asp:MultiView>
         <br />
-        <asp:Button ID="Button3" runat="server" Text="代码" CausesValidation="False" />
+        <asp:Button ID="Button3" runat="server" Text="代码" CausesValidation="False" class="button button-caution button-pill button-small"/>
         <br />
         <asp:Label ID="Label4" runat="server" Text=""></asp:Label>
     

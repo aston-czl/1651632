@@ -5,6 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="../Button.css" rel="stylesheet" />
     <title></title>
 </head>
 <body>
@@ -32,14 +33,14 @@
             </asp:DropDownList>
             日</p>
         <p>
-            <asp:Button ID="btn_1" runat="server" Text="今天" />
-            <asp:Button ID="btn_2" runat="server" Text="确定" />
+            <asp:Button ID="btn_1" runat="server" Text="今天" class="button button-primary button-pill button-small"/>
+            <asp:Button ID="btn_2" runat="server" Text="确定" class="button button-primary button-pill button-small"/>
         </p>
         <p>
             <asp:Label ID="lbl_1" runat="server"></asp:Label>
         </p>
         <p>
-        <asp:Button ID="Button1" runat="server" Text="代码" CausesValidation="False" />
+        <asp:Button ID="Button1" runat="server" Text="代码" CausesValidation="False" class="button button-caution button-pill button-small"/>
         <br />
         <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
     

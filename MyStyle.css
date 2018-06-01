@@ -1,0 +1,43 @@
+﻿body {
+    background-color:#ECF0F1;
+}
+
+#head {
+    height: 90px;
+    line-height: 60px;
+    vertical-align: middle;
+}
+
+    #head .title {
+        font-size: xx-large;
+    }
+
+    #head ul li a {
+        line-height: 60px;
+        vertical-align: middle;
+        font-size: large;
+    }
+
+#menu {
+    position: relative;
+    top: 100px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+    #menu .myframe {
+        height: 200px;
+    }
+
+#main {
+    position: relative;
+    top: 100px;
+}
+
+#footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 0;
+    border-radius:10px;
+    background-color:#BDC3C7;
+}

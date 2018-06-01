@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title="WEB技术基础与应用"  description="">
+    <siteMapNode url="" title="实验一"  description="">
+      <siteMapNode url="http://localhost:30375/实验1/index.aspx" title="index"   description="" />
+      <siteMapNode url="http://localhost:30375/实验1/lx1-1.aspx" title="lx1-1"   description="" />
+      <siteMapNode url="http://localhost:30375/实验1/lx1-2.aspx" title="lx1-2"   description="" />
+      <siteMapNode url="http://localhost:30375/实验1/lx1-3.aspx" title="lx1-3"   description="" />
+    </siteMapNode>
+    <siteMapNode url="" title="实验二"  description="">
+      <siteMapNode url="http://localhost:30375/实验2/lx2-1.html" title="lx2-1"   description="" />
+      <siteMapNode url="http://localhost:30375/实验2/lx2-2.aspx" title="lx2-2"   description="" />
+    </siteMapNode>
+    <siteMapNode url="" title="实验三"  description="">
+      <siteMapNode url="http://localhost:30375/实验3/lx3-1.aspx" title="lx3-1"   description="" />
+      <siteMapNode url="http://localhost:30375/实验3/lx3-2.aspx" title="lx3-2"  description="" />
+      <siteMapNode url="http://localhost:30375/实验3/lx3-3.aspx" title="lx3-3"   description="" />
+    </siteMapNode>
+    <siteMapNode url="" title="实验四"  description="">
+      <siteMapNode url="http://localhost:30375/实验4/lx4-1.aspx" title="lx4-1"   description="" />
+      <siteMapNode url="http://localhost:30375/实验4/lx4-2.aspx" title="lx4-2"  description="" />
+      <siteMapNode url="http://localhost:30375/实验4/lx4-3.aspx" title="lx4-3"   description="" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

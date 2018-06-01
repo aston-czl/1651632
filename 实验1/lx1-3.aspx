@@ -5,6 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server"> 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="../Button.css" rel="stylesheet" />
     <title>《望岳》</title>
 </head>
 <body text="purple" bgcolor="lightgray"> 
@@ -26,7 +27,7 @@
 </marquee><p>
         &nbsp;</p>
     <p>
-            <asp:Button ID="Button1" runat="server" Text="代码" />
+            <asp:Button ID="Button1" runat="server" Text="代码" class="button button-caution button-pill button-small"/>
             <br />
             <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
         </p>
